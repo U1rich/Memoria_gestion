@@ -1,0 +1,53 @@
+/*  Eber David Gaytán Medina
+    Matricula - 31124991
+    09/12/2021*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+//isdigit isalpha
+
+//char *tam_memoria;
+//char *tam_pagina;
+//int tam_proceso;
+//char lista_marcos_libles[];
+//char lista_dirs_logicas[];
+
+void adm_Mem_loop(void);
+
+int pedidorizadordelarrealimitrrofe();
+
+int main(){
+
+pedidorizadordelarrealimitrrofe();
+
+return EXIT_SUCCESS;
+}
+
+int pedidorizadordelarrealimitrrofe(){
+    char tam_memoria[10]="2";
+    char prefijo;
+    int mem;
+    int res;
+
+    //scanf("%c",&tam_memoria);
+
+    printf("%c",tam_memoria);
+     
+    mem = atoi(tam_memoria[0]);
+    //prefijo = tam_memoria[1];
+
+//    res = mem*1024;
+    //char *tam_pagina;
+    printf("%d",mem);
+    //fgets(tam_memoria,10,stdin);
+    // fgets(tam_memoria,10,stdin);
+    // printf("%s\n",tam_memoria);
+    // strncpy(mem,tam_memoria,1);
+    // printf("%s\n",mem);
+    // res=(int)mem*1024;
+    // printf("%d",res);
+
+}
